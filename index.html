@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="taller.css">
+</head>
+<body>
+    <main>
+        <main class="main">
+            <div class="div">
+                <label for="">Nombre trabajador</label>
+                <input id="nombreEmpleado" type="text">
+            </div>
+            <div class="div">
+                <label for="">Valor hora</label>
+                <input id="valorHora" type="text">
+            </div>
+            <div class="div">
+                <label for="">Cantidad horas por mes</label>
+                <input id="cantidadHoraMes" type="text">
+            </div>
+            <div class="div">
+                <label for="">Salario mensual bruto</label>
+                <input id="salarioBruto" type="text">
+            </div>
+            <div class="div">
+                <label for="">Deduccion salud</label>
+                <input id="deduccionSalud" type="text">
+            </div>
+            <div class="div">
+                <label for="">Deduccion pension</label>
+                <input id="deduccionPension" type="text">
+            </div>
+            <div class="div">
+                <label for="">Salario neto</label>
+                <input id="salarioNeto" type="text">
+            </div>
+            <div class="div">
+                <label id="nombretotal" for="">Pago quincenal</label>
+                <input id="totalQuincenal" type="text">
+                <h2 id="nombre"></h2>
+                <img id="img" class="card-img-top img" src="" alt="img">
+                
+            </div>
+            <br>
+            <div class="btn">
+                <input onclick="calcularSalario()" id="btnCalcular" type="button" value="Calcular salario">
+            </div>
+            
+            
+    </main>
+
+   <script src="./app.js"></script> 
+</body>
+</html>
